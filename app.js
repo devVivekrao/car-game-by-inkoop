@@ -42,7 +42,7 @@ function startGame() {
     //reduce petrol by calcutaling milage which is 0.5 km/l 
     petrol -= (step * 2);
 
-
+    // if value of petrol goes in minus
     if( petrol < 0 ){
       petrol = 0;
     }
@@ -68,7 +68,7 @@ function startGame() {
     // move counter
     move += 1;
   }
-  
+
   console.log("Game over");
 
 
